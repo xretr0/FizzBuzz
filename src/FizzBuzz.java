@@ -6,7 +6,7 @@ import java.io.Console;
 class FizzBuzz {
 
     public static void main(String[] args) {
-        var j = 1;
+        int j = 1;
         while (j < 100) {
             doFizzBuzz(j);
             j += 1;
